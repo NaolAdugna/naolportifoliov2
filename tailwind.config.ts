@@ -26,6 +26,13 @@ const config = {
       },
     },
     extend: {
+      gridTemplateColumns:{
+        'custom':'2fr 5fr',
+      },
+        gridTemplateRows: {
+        // Custom grid template for rows
+        'custom': '2fr 5fr',
+      },
       colors: {
         black: {
           DEFAULT: "#000",
@@ -186,6 +193,53 @@ const config = {
         },
         { values: flattenColorPalette(theme("backgroundColor")), type: "color" }
       );
+    },
+    function ({ addUtilities }: any) {
+      addUtilities({
+        '.box-before': {
+          content: '""',
+          position: 'absolute',
+          // width: '16px',
+          // height: '16px',
+          borderRadius: '50%',
+          // right: 'calc(100% + 22px)',
+          // top: '0',
+          backgroundColor: '#11a372',
+          border: '2px solid white',
+        },
+      }, ['before'])
+    },
+    function ({ addUtilities }: any) {
+      addUtilities({
+        '.section-after': {
+          content: '""',
+          position: 'absolute',
+          // width: '100%',
+          // height: '100%',
+          outline:'3px solid #767cb5',
+          top:'15px',
+          left:'15px',
+          zIndex:'1'
+        },
+      }, ['after'])
+    },
+    function ({ addUtilities }: any) {
+      addUtilities({
+          "animation": {
+            shimmer: "shimmer 2s linear infinite"
+          },
+          "keyframes": {
+            shimmer: {
+              from: {
+                "backgroundPosition": "0 0"
+              },
+              to: {
+                "backgroundPosition": "-200% 0"
+              }
+            }
+          }
+        }
+     , ['before'])
     },
   ],
 } satisfies Config;
