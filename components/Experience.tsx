@@ -1,21 +1,44 @@
-import React from "react";
+"use client";
+import React, { useState } from "react";
 
 import { workExperience } from "@/data";
 import { Button } from "./ui/MovingBorders";
 import { FaLocationDot } from "react-icons/fa6";
 import { TracingBeam } from "./ui/tracing-beam";
-
+import { FaAngleDown, FaAngleUp } from "react-icons/fa6";
 const Experience = () => {
+  const [careClicked, setCareClicked] = useState(false);
+  const [ukClicked, setUkClicked] = useState(false);
+  const [africaClicked, setAfricaClicked] = useState(false);
+  const [BDSClicked, setBDSClicked] = useState(false);
+  const [hanaClicked, setHanaClicked] = useState(false);
+
+  let handleCare = () => {
+    setCareClicked((prev) => !prev);
+  };
+  let handleUk = () => {
+    setUkClicked((prev) => !prev);
+  };
+  let handleAfrica = () => {
+    setAfricaClicked((prev) => !prev);
+  };
+  let handleBDS = () => {
+    setBDSClicked((prev) => !prev);
+  };
+  let handleHana = () => {
+    setHanaClicked((prev) => !prev);
+  };
   return (
     <div className="py-20 w-full" id="experience">
       <h1 className="heading">
-        My <span className="text-purple">work experience</span>
+        My <span className="text-purple">Work Experience</span>
       </h1>
+
       <main className="w-[80%] m-auto sm:w-[96%] md:w-[92%] ">
         <div className="px-6 mt-10 gap-6">
           <section>
             <TracingBeam>
-              <div className="relative p-8 sm:p-2 md:p-3 border-2 mt-4 rounded-xl hover:scale-105 transition-all hover:cursor-pointer duration-300 gap-4 flex flex-col">
+              <div className="relative p-8 sm:p-2 md:p-3 border-2 mt-4 rounded-xl  transition-all  hover:scale-105   duration-300 gap-4 flex flex-col">
                 <h1 className="text-xl underline">CARE Ethiopia </h1>
                 <div className="flex items-center justify-between">
                   <small>Specialist- Gender and Accountability</small>
@@ -39,11 +62,62 @@ const Experience = () => {
                     Work with project team to identify strategic actions and
                     improve the quality of project implementation
                   </li>
+
+                  {careClicked ? (
+                    <div className="gap-2 flex flex-col">
+                      {" "}
+                      <li>
+                        Effectively build capacity of staff, government
+                        partners, and community groups in applying both gender,
+                        accountability and child protection approaches, tools,
+                        and best practices.
+                      </li>{" "}
+                      <li>
+                        Effectively identified gaps, developed manuals and
+                        training materials, planned, and facilitate training and
+                        workshops related to gender, life skills,
+                        entrepreneurship, and accountability tools
+                      </li>{" "}
+                      <li>
+                        Coach and mentor field level staff and community to
+                        facilitate change{" "}
+                      </li>{" "}
+                      <li>
+                        Ensure program quality and impact in line with the
+                        project goals and objectives at field office level
+                      </li>{" "}
+                      <li>
+                        Advocate and influence the inclusion of gender, youth,
+                        and other social issues
+                      </li>{" "}
+                      <li>
+                        Ensure commitment to principles of gender equity,
+                        diversity, inclusion, and PSEAH (safeguarding)
+                      </li>{" "}
+                      <li>
+                        Represent CARE as a focal point for gender and
+                        Prevention of Sexual Harassment and Abuse at field level
+                      </li>{" "}
+                      <li>
+                        Support health extension workers on Psychosocial support
+                        service
+                      </li>{" "}
+                    </div>
+                  ) : (
+                    ""
+                  )}
                 </ul>
+                <div onClick={handleCare}>
+                  {careClicked ? (
+                    <FaAngleUp className=" text-xl hover:cursor-pointer " />
+                  ) : (
+                    <FaAngleDown className=" text-xl hover:cursor-pointer " />
+                  )}
+                </div>
               </div>
             </TracingBeam>
             <TracingBeam>
-              <div className="relative p-8 border-2  hover:scale-105 rounded-xl hover:cursor-pointer  transition-all duration-300 gap-4 mt-4 flex flex-col">
+              <div className="relative p-8 border-2  hover:scale-105 rounded-xl transition-all duration-300 gap-4 mt-4 flex flex-col">
                 <h1 className="text-xl underline">
                   Uk Oncall Interpreter and Translation{" "}
                 </h1>
@@ -75,11 +149,60 @@ const Experience = () => {
                     Kingdom, like hospitals and social services for refugees and
                     asylum seekers.
                   </li>
+                  {ukClicked ? (
+                    <div className="gap-2 flex flex-col">
+                      {" "}
+                      <li>
+                        Oversaw effective organization and documentation of
+                        project financial and activity reports
+                      </li>{" "}
+                      <li>
+                        Supervised confidential documentation of clients’
+                        personal information, feedback and reports
+                      </li>{" "}
+                      <li>
+                        Translation, interpretation proper linkages of clients
+                        and documentation of cases for social service
+                        organizations like Tower Hamlet Children Service, Solace
+                        Women’s Aid, Imperial Health Service NHS, from Amharic
+                        to English and From Affan Oromo to English and vice
+                        versa.
+                      </li>{" "}
+                      <li>
+                        Assisted interpreters and clients on different project
+                        activities
+                      </li>{" "}
+                      <li>
+                        Bridged clients to project staff by providing proper
+                        information and guidance for both staff and clients
+                      </li>{" "}
+                      <li>
+                        Preparation of reports for the company on daily basis
+                      </li>{" "}
+                      <li>
+                        Organizing and preparation of feedback documents from
+                        client
+                      </li>{" "}
+                      <li>
+                        Confidential documentation and data management, related
+                        to client sensitive issue in refugee status
+                      </li>{" "}
+                    </div>
+                  ) : (
+                    ""
+                  )}
                 </ul>
+                <div onClick={handleUk}>
+                  {ukClicked ? (
+                    <FaAngleUp className=" text-xl hover:cursor-pointer " />
+                  ) : (
+                    <FaAngleDown className=" text-xl hover:cursor-pointer " />
+                  )}
+                </div>
               </div>
             </TracingBeam>
             <TracingBeam>
-              <div className="relative p-8 border-2  hover:scale-105 rounded-xl hover:cursor-pointer  transition-all duration-300 gap-4 mt-4 flex flex-col">
+              <div className="relative p-8 border-2  hover:scale-105 rounded-xl  transition-all duration-300 gap-4 mt-4 flex flex-col">
                 <h1 className="text-xl underline">
                   Sub-Saharan Africa Research and Training Center (SART) PLC
                 </h1>
@@ -111,10 +234,17 @@ const Experience = () => {
                     farmers and report preparation.
                   </li>
                 </ul>
+                {/* <div onClick={handleAfrica}>
+                  {africaClicked ? (
+                    <FaAngleUp className=" text-xl hover:cursor-pointer " />
+                  ) : (
+                    <FaAngleDown className=" text-xl hover:cursor-pointer " />
+                  )}
+                </div> */}
               </div>
             </TracingBeam>
             <TracingBeam>
-              <div className="relative p-8 border-2  hover:scale-105 rounded-xl hover:cursor-pointer  transition-all duration-300 gap-2 mt-4 flex flex-col">
+              <div className="relative p-8 border-2  hover:scale-105 rounded-xl  transition-all duration-300 gap-2 mt-4 flex flex-col">
                 <h1 className="text-xl underline">
                   BDS-Center for Development Research/CDR/
                 </h1>
@@ -142,11 +272,29 @@ const Experience = () => {
                     Observation and analysis of Productive Safety Net Program
                     (PSNP) interventions at kebele level
                   </li>
+                  {BDSClicked ? (
+                    <div className="gap-2 flex flex-col">
+                      {" "}
+                      <li>
+                        Write narrative reports of collected interview and
+                        observation data for the main research team
+                      </li>{" "}
+                    </div>
+                  ) : (
+                    ""
+                  )}
                 </ul>
+                <div onClick={handleBDS}>
+                  {BDSClicked ? (
+                    <FaAngleUp className=" text-xl hover:cursor-pointer " />
+                  ) : (
+                    <FaAngleDown className=" text-xl hover:cursor-pointer " />
+                  )}
+                </div>
               </div>
             </TracingBeam>
             <TracingBeam>
-              <div className="relative p-8 border-2  hover:scale-105 rounded-xl hover:cursor-pointer  transition-all duration-300 gap-2 mt-4 flex flex-col">
+              <div className="relative p-8 border-2  hover:scale-105 rounded-xl  transition-all duration-300 gap-2 mt-4 flex flex-col">
                 <h1 className="text-xl underline">Hana Orphans’ Home</h1>
 
                 <div className="flex items-center justify-between">
@@ -173,7 +321,32 @@ const Experience = () => {
                     trainings for children, parents, and guardians in the
                     community.
                   </li>
+                  {hanaClicked ? (
+                    <div className="gap-2 flex flex-col">
+                      {" "}
+                      <li>
+                        Conducted group counseling and trainings for caregivers
+                      </li>{" "}
+                      <li>
+                        Conducting continuous need assessments for children and
+                        strategized interventions based on findings
+                      </li>{" "}
+                      <li>
+                        Reported all project activities to stakeholders and
+                        report doners
+                      </li>{" "}
+                    </div>
+                  ) : (
+                    ""
+                  )}
                 </ul>
+                <div onClick={handleHana}>
+                  {hanaClicked ? (
+                    <FaAngleUp className=" text-xl hover:cursor-pointer " />
+                  ) : (
+                    <FaAngleDown className=" text-xl hover:cursor-pointer " />
+                  )}
+                </div>
               </div>
             </TracingBeam>
           </section>

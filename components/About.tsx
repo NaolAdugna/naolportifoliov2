@@ -8,26 +8,29 @@ const About = () => {
           <Image
             src={ElsuImage}
             alt="elsu profile"
-            className="w-full h-full object-cover border-4-"
+            className="w-full h-full object-cover border-4 rounded-xl"
           />
         </section>
         <section className="ml-10 flex flex-col gap-4">
-          <h1 className="heading">ABOUT ME </h1>
+          <h1 className="heading">
+            About <span className="text-purple">Me</span>
+          </h1>
           <p className="text-justify ">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem
-            blanditiis tempora libero autem officiis odio ipsam fugiat inventore
-            magni voluptates explicabo delectus repellat ut saepe dolor, eveniet
-            nemo totam harum. Lorem ipsum dolor sit amet consectetur adipisicing
-            elit. Rem blanditiis tempora libero autem officiis odio ipsam fugiat
-            inventore magni voluptates explicabo delectus repellat ut saepe
-            dolor, eveniet nemo totam harum. Lorem ipsum dolor sit amet
-            consectetur adipisicing elit. Rem blanditiis tempora libero autem
-            officiis odio ipsam fugiat inventore magni voluptates explicabo
-            delectus repellat ut saepe dolor, eveniet nemo totam harum. dolor,
-            eveniet nemo totam harum. Lorem ipsum dolor sit amet consectetur
-            adipisicing elit. Rem blanditiis tempora libero autem officiis odio
-            ipsam fugiat inventore magni voluptates explicabo delectus repellat
-            ut saepe dolor, eveniet nemo totam harum.
+            Elsabeth Adugna, hold master’s in counselling and psychological
+            guidance from Near East university located in Northern Cyprus. In
+            addition, Bachelor of Social Work from Gondar university. Gender
+            specialist with extensive experience in gender analysis, gender
+            programing and capacity building at community as well as government
+            stakeholders. Leads partnership and collaboration at community as
+            well as implementing partner. In addition to this participated in
+            conducting different research assessment and conducted focus group
+            discussion (FGD) and individual interviews with participant of
+            cluster farmers. Observation and analysis of Productive Safety Net
+            Program (PSNP) interventions at kebele level was among the
+            responsibilities experience have. Speaks Affan Oromo, Amharic, and
+            English. Recently working as gender and accountability specialist at
+            Care Ethiopia, on the project which works on child labor reduction
+            with gender cross cutting.
           </p>
 
           <div>
