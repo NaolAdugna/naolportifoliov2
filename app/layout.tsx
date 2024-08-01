@@ -8,7 +8,8 @@ import { ThemeProvider } from "./provider";
 
 export const metadata: Metadata = {
   title: "Elsabeth Adugna",
-  description: "Modern & Minimal JS Mastery Portfolio",
+  description:
+    "I am Elsabeth Adugna. I am am Gender and Accountability Specialist.",
 };
 
 export default function RootLayout({
