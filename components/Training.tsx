@@ -22,7 +22,7 @@ const Training = () => {
                 </li>
                 <li>By ONCALL Interpreters</li>
                 <li>By European Asylum Seeker Union</li>
-                <li>By Hana Orphans'</li>
+                <li>By Hana Orphans</li>
               </ul>
             </TracingBeam>
           </section>
