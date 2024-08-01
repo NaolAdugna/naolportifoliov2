@@ -17,21 +17,24 @@ const About = () => {
             About <span className="text-purple">Me</span>
           </h1>
           <p className="text-justify ">
-            Elsabeth Adugna, hold master’s in counselling and psychological
-            guidance from Near East university located in Northern Cyprus. In
-            addition, Bachelor of Social Work from Gondar university. Gender
-            specialist with extensive experience in gender analysis, gender
-            programing and capacity building at community as well as government
-            stakeholders. Leads partnership and collaboration at community as
-            well as implementing partner. In addition to this participated in
-            conducting different research assessment and conducted focus group
-            discussion (FGD) and individual interviews with participant of
-            cluster farmers. Observation and analysis of Productive Safety Net
-            Program (PSNP) interventions at kebele level was among the
-            responsibilities experience have. Speaks Affan Oromo, Amharic, and
-            English. Recently working as gender and accountability specialist at
-            Care Ethiopia, on the project which works on child labor reduction
-            with gender cross cutting.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
+            reiciendis consectetur eos fugit minima, tenetur quod rerum vero
+            harum laborum repellendus sit, eveniet ipsum quaerat officia modi
+            tempore veritatis doloribus! Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Tempore, placeat omnis. Numquam nam quos minus
+            delectus reiciendis officiis accusamus quasi perferendis nulla,
+            magnam asperiores eum velit nobis dicta optio inventore? Aut esse
+            cupiditate, quod impedit dolores voluptate reprehenderit est, maxime
+            eveniet enim dolorem aspernatur possimus, harum rerum iure soluta
+            fugiat! Enim aut, at tenetur sint veniam facere iure reprehenderit
+            cupiditate! Rem, exercitationem deleniti! Quis hic dolores
+            voluptatibus culpa omnis voluptatum impedit maxime repellendus
+            quidem minus esse, dolorem praesentium debitis voluptas quaerat iure
+            velit soluta similique ab aspernatur pariatur aperiam? Expedita.
+            Recusandae itaque dolore ut deleniti autem tempora harum. Modi saepe
+            et consequuntur neque minus unde a quos, cum quis ea, provident
+            maiores distinctio ex! Iste eligendi ut praesentium veritatis
+            reprehenderit.
           </p>
 
           <div>
