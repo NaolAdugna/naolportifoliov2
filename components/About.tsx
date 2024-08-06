@@ -17,24 +17,7 @@ const About = () => {
             About <span className="text-purple">Me</span>
           </h1>
           <p className="text-justify ">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
-            reiciendis consectetur eos fugit minima, tenetur quod rerum vero
-            harum laborum repellendus sit, eveniet ipsum quaerat officia modi
-            tempore veritatis doloribus! Lorem ipsum dolor sit amet consectetur
-            adipisicing elit. Tempore, placeat omnis. Numquam nam quos minus
-            delectus reiciendis officiis accusamus quasi perferendis nulla,
-            magnam asperiores eum velit nobis dicta optio inventore? Aut esse
-            cupiditate, quod impedit dolores voluptate reprehenderit est, maxime
-            eveniet enim dolorem aspernatur possimus, harum rerum iure soluta
-            fugiat! Enim aut, at tenetur sint veniam facere iure reprehenderit
-            cupiditate! Rem, exercitationem deleniti! Quis hic dolores
-            voluptatibus culpa omnis voluptatum impedit maxime repellendus
-            quidem minus esse, dolorem praesentium debitis voluptas quaerat iure
-            velit soluta similique ab aspernatur pariatur aperiam? Expedita.
-            Recusandae itaque dolore ut deleniti autem tempora harum. Modi saepe
-            et consequuntur neque minus unde a quos, cum quis ea, provident
-            maiores distinctio ex! Iste eligendi ut praesentium veritatis
-            reprehenderit.
+           My name is Naol Adugna I'm a self-taught Full Stack Web Developer with a diverse skill set encompassing HTML, CSS, JavaScript, React JS, Express JS, Node JS, MongoDB, MYSQL, PostMan, Material UI, GitHub, WordPress, and SEO. Through my relentless pursuit of knowledge and hands-on experience, I have mastered the essentials of web development. I am ready to collaborate on projects that push the boundaries of what's possible on the web.
           </p>
 
           <div>
