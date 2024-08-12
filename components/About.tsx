@@ -17,7 +17,7 @@ const About = () => {
             About <span className="text-purple">Me</span>
           </h1>
           <p className="text-justify ">
-           My name is Naol Adugna I am a self-taught Full Stack Web Developer with a diverse skill set encompassing HTML, CSS, JavaScript, React JS, Express JS, Node JS, MongoDB, MYSQL, PostMan, Material UI, GitHub, WordPress, and SEO. Through my relentless pursuit of knowledge and hands-on experience, I have mastered the essentials of web development. I am ready to collaborate on projects that push the boundaries of what's possible on the web.
+           My name is Naol Adugna I am a self-taught Full Stack Web Developer with a diverse skill set encompassing HTML, CSS, JavaScript, React JS, Express JS, Node JS, MongoDB, MYSQL, PostMan, Material UI, GitHub, WordPress, and SEO. Through my relentless pursuit of knowledge and hands-on experience, I have mastered the essentials of web development. I am ready to collaborate on projects that push the boundaries of whats possible on the web.
           </p>
 
           <div>
