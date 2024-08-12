@@ -39,31 +39,33 @@ const Experience = () => {
           <section>
             <TracingBeam>
               <div className="relative p-8 sm:p-2 md:p-3 border-2 mt-4 rounded-xl  transition-all  hover:scale-105   duration-300 gap-4 flex flex-col">
-                <h1 className="text-xl underline">CARE Ethiopia </h1>
+                <h1 className="text-xl underline">Digital Addis </h1>
                 <div className="flex items-center justify-between">
                   <small>Specialist- Gender and Accountability</small>
                   <span className="flex items-center gap-1">
-                    <FaLocationDot /> Metu, Ethiopia
+                    <FaLocationDot /> Addis Ababa, Ethiopia
                   </span>
                 </div>
                 <ul className="list-disc pl-5 gap-2 flex flex-col">
                   <li className="text-[x]16p">
-                    Led gender analysis in the specific implementation area.
+                   Collaborated closely with cross-functional teams, including designers, developers, and QA
+                   analysts, to deliver high-quality web solutions on time and within budget. Achieved a 97%
+                   client satisfaction rate based on post-launch feedback.
                   </li>
                   <li className="text-[x]16p">
-                    Co-developed contextualized gender discussion and life
-                    skills manuals using gender analysis findings
+                    Implemented performance optimization techniques such as caching and image
+                    optimization, resulting in a 4% reduction in bounce rates.
                   </li>
                   <li className="text-[x]16p">
-                    Ensured gender responsiveness by reviewing documents and
-                    activities in gender and child labor Lense
+                    Conducted regular reviews and provided mentorship to other developers, fostering a
+                    culture of continuous learning and follow to best practices in coding standards.
                   </li>
-                  <li className="text-[x]16p">
+                  {/* <li className="text-[x]16p">
                     Work with project team to identify strategic actions and
                     improve the quality of project implementation
-                  </li>
+                  </li> */}
 
-                  {careClicked ? (
+                  {/* {careClicked ? (
                     <div className="gap-2 flex flex-col">
                       {" "}
                       <li>
@@ -105,18 +107,18 @@ const Experience = () => {
                     </div>
                   ) : (
                     ""
-                  )}
+                  )} */}
                 </ul>
-                <div onClick={handleCare}>
+                {/* <div onClick={handleCare}>
                   {careClicked ? (
                     <FaAngleUp className=" text-xl hover:cursor-pointer " />
                   ) : (
                     <FaAngleDown className=" text-xl hover:cursor-pointer " />
                   )}
-                </div>
+                </div> */}
               </div>
             </TracingBeam>
-            <TracingBeam>
+            {/* <TracingBeam>
               <div className="relative p-8 border-2  hover:scale-105 rounded-xl transition-all duration-300 gap-4 mt-4 flex flex-col">
                 <h1 className="text-xl underline">
                   Uk Oncall Interpreter and Translation{" "}
@@ -200,8 +202,8 @@ const Experience = () => {
                   )}
                 </div>
               </div>
-            </TracingBeam>
-            <TracingBeam>
+            </TracingBeam> */}
+            {/* <TracingBeam>
               <div className="relative p-8 border-2  hover:scale-105 rounded-xl  transition-all duration-300 gap-4 mt-4 flex flex-col">
                 <h1 className="text-xl underline">
                   Sub-Saharan Africa Research and Training Center (SART) PLC
@@ -234,16 +236,10 @@ const Experience = () => {
                     farmers and report preparation.
                   </li>
                 </ul>
-                {/* <div onClick={handleAfrica}>
-                  {africaClicked ? (
-                    <FaAngleUp className=" text-xl hover:cursor-pointer " />
-                  ) : (
-                    <FaAngleDown className=" text-xl hover:cursor-pointer " />
-                  )}
-                </div> */}
+               
               </div>
-            </TracingBeam>
-            <TracingBeam>
+            </TracingBeam> */}
+            {/* <TracingBeam>
               <div className="relative p-8 border-2  hover:scale-105 rounded-xl  transition-all duration-300 gap-2 mt-4 flex flex-col">
                 <h1 className="text-xl underline">
                   BDS-Center for Development Research/CDR/
@@ -292,8 +288,8 @@ const Experience = () => {
                   )}
                 </div>
               </div>
-            </TracingBeam>
-            <TracingBeam>
+            </TracingBeam> */}
+            {/* <TracingBeam>
               <div className="relative p-8 border-2  hover:scale-105 rounded-xl  transition-all duration-300 gap-2 mt-4 flex flex-col">
                 <h1 className="text-xl underline">Hana Orphans’ Home</h1>
 
@@ -348,7 +344,7 @@ const Experience = () => {
                   )}
                 </div>
               </div>
-            </TracingBeam>
+            </TracingBeam> */}
           </section>
         </div>
       </main>

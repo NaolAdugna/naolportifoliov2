@@ -3,7 +3,7 @@ import { FaLocationArrow } from "react-icons/fa6";
 import MagicButton from "./MagicButton";
 import { Spotlight } from "./ui/Spotlight";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
-import { FaLinkedinIn, FaTelegram } from "react-icons/fa6";
+import { FaLinkedinIn, FaTelegram ,FaGithub } from "react-icons/fa6";
 
 const Hero = () => {
   return (
@@ -49,8 +49,14 @@ const Hero = () => {
           />
 
           <div className="flex justify-center gap-4">
+           <a href='https://www.linkedin.com/in/naoladugna47/' target="_blank">
             <FaLinkedinIn className="hover:cursor-pointer size-5" />
-            <FaTelegram className="hover:cursor-pointer size-5" />
+            
+            </a> 
+            <a href='https://github.com/NaolAdugna' target="_blank">
+
+            <FaGithub className="hover:cursor-pointer size-5" />
+            </a>
           </div>
         </div>
       </div>

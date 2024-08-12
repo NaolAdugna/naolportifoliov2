@@ -11,21 +11,21 @@ const Education = () => {
           </header>
           <div className="px-6 border-t-4 grid grid-cols-2  mt-10 gap-6">
             <div className="relative p-8 border-2 mt-4 rounded-xl hover:scale-105 transition-all hover:cursor-pointer duration-300 gap-2 flex flex-col">
-              <h1 className="text-xl underline">Masters Degree</h1>
-              <h3>2020-2022</h3>
+              <h1 className="text-xl underline">Bachelor Degree</h1>
+              <h3>2020-2024</h3>
               <p>
-                Masters degree in Guidance and Psychological Counseling 3.29 GPA
-                (Near East University) June 2022 G.C.
+                Bachelor degree in Computer Science 3.58 GPA
+                (Bonga University,Ethiopia) June 2024 G.C.
               </p>
             </div>
-            <div className="relative p-8 border-2 hover:scale-105 rounded-xl hover:cursor-pointer transition-all duration-300 gap-2 mt-4 flex flex-col">
+            {/* <div className="relative p-8 border-2 hover:scale-105 rounded-xl hover:cursor-pointer transition-all duration-300 gap-2 mt-4 flex flex-col">
               <h1 className="text-xl underline">Bachelor Degree</h1>
               <h3>2013-2017</h3>
               <p>
                 Bachelor degree in Social Work 3.09 GPA (University of Gonder)
                 July 2017 G.C.
               </p>
-            </div>
+            </div> */}
           </div>
         </section>
       </main>

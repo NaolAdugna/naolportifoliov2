@@ -2,7 +2,7 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import { FaLocationArrow } from "react-icons/fa6";
-import { FaTelegram, FaLinkedinIn } from "react-icons/fa6";
+import { FaGithub, FaLinkedinIn } from "react-icons/fa6";
 import { socialMedia } from "@/data";
 import MagicButton from "./MagicButton";
 import { FaEnvelope } from "react-icons/fa6";
@@ -93,15 +93,22 @@ const Footer: React.FC = () => {
         </div>
         <div className="flex mt-16 md:flex-row flex-col justify-between items-center">
           <p className="md:text-base text-sm md:font-normal font-light">
-            Copyright © 2024 Elsabeth Adugna
+            Copyright © 2024 Naol Adugna
           </p>
 
           <div className="flex items-center md:gap-3 gap-6">
             <div className="w-10 h-10 cursor-pointer flex justify-center items-center backdrop-filter backdrop-blur-lg saturate-180 bg-opacity-75 bg-black-200 rounded-lg border border-black-300">
-              <FaTelegram width={20} height={20} />
+             <a href='https://www.linkedin.com/in/naoladugna47/' target="_blank">
+            <FaLinkedinIn className="hover:cursor-pointer size-5" />
+            
+            </a> 
+            
             </div>
             <div className="w-10 h-10 cursor-pointer flex justify-center items-center backdrop-filter backdrop-blur-lg saturate-180 bg-opacity-75 bg-black-200 rounded-lg border border-black-300">
-              <FaLinkedinIn width={20} height={20} />
+             <a href='https://github.com/NaolAdugna' target="_blank">
+
+            <FaGithub className="hover:cursor-pointer size-5" />
+            </a>
             </div>
           </div>
         </div>
