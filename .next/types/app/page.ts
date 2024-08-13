@@ -1,4 +1,4 @@
-// File: C:\Users\Nhatt\OneDrive\Desktop\DAProjects\narportfolio\app\page.tsx
+// File: /workspaces/naolportifoliov2/app/page.tsx
 import * as entry from '../../../app/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

@@ -3,7 +3,7 @@ import NaolImage from "../public/naol.png";
 // import ElsabethAdugnaCV from "../public/ElsabethAdugnaCV.pdf";
 const About = () => {
   return (
-    <div className="pb-20 pt-36" id="about">
+    <div className="pb-20 pt-36 h-screen w-full dark:bg-black-100 bg-white dark:bg-grid-white/[0.03] bg-grid-black-100/[0.2]" id="about">
       <div className="grid grid-cols-custom w-full">
         <section className="relative min-h-80 h-96 z-1 ">
           <Image

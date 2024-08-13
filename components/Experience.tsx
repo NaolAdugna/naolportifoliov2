@@ -29,7 +29,7 @@ const Experience = () => {
     setHanaClicked((prev) => !prev);
   };
   return (
-    <div className="py-20 w-full" id="experience">
+    <div className="py-20 w-full dark:bg-black-100 bg-white dark:bg-grid-white/[0.03] bg-grid-black-100/[0.2]" id="experience">
       <h1 className="heading">
         My <span className="text-purple">Work Experience</span>
       </h1>

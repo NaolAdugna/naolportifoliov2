@@ -75,7 +75,7 @@ export const projects = [
     title: "Hospital Management System",
     des: "This web based system is developed using React js, Express js Node js, MYSQL and CSS. This system has 6 actor users <span>Admin</span>, <span>Doctor</span>, <span>Reception</span>, <span>Labratory Technician</span> <span> Pharmacist</span>, and <span>Paitient</span>. It uses JSON Web Token for authenticating users with forgot password generating OTP and sending to there email address, and zustand for state management. There is also Gemini AI for users to interact with it, and also has support Chat, sending files between among other users.",
     img: "/hms doctor dashboard.png",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
+    iconLists: ["/re.svg", "/tail.svg", "/javascript.svg", "/gemini.svg", "/fm.svg"],
     link: "https://hms.com",
   },
   {
@@ -83,7 +83,7 @@ export const projects = [
     title: "Execellerent Solutions Clone Website",
     des: " This clone website was done using React js and CSS and the original website is  ExcellerentSolutions.com . I meticulously crafted this clone to mirror the original's features and capabilities. From the seamless navigation to the visually stunning elements, every aspect has been meticulously recreated to capture the essence of ExcellerentSolutions.com Website.",
     img: "/excellerentSolutionsLandingPage.png",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
+    iconLists: ["/re.svg", "/CSS.svg", "/javascript.svg", "/googleanalytics.svg", "/netlify.svg"],
     link: "https://naoladugnaexcellerentsolutionsclone.netlify.app/",
   },
   {
@@ -91,7 +91,7 @@ export const projects = [
     title: "Cost Plus Drugs Clone Clone",
     des: "This meticulous replication of CostPlusDrugs.com utilize advanced frameworks React.js and CSS, I have ensured that every detail of the original Cost Plus Drugs website has been faithfully reproduced.",
     img: "/costPlusDrugLandingPage.png",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
+    iconLists: ["/re.svg", "/CSS.svg", "/javascript.svg", "/googleanalytics.svg", "/netlify.svg"],
     link: "https://naoladugnacostplusdrugsclone.netlify.app/",
   },
   // {
