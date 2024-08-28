@@ -41,7 +41,7 @@ const Experience = () => {
               <div className="relative p-8 sm:p-2 md:p-3 border-2 mt-4 rounded-xl  transition-all  hover:scale-105   duration-300 gap-4 flex flex-col">
                 <h1 className="text-xl underline">Digital Addis </h1>
                 <div className="flex items-center justify-between">
-                  <small>Specialist- Gender and Accountability</small>
+                  <small>Software Developer</small>
                   <span className="flex items-center gap-1">
                     <FaLocationDot /> Addis Ababa, Ethiopia
                   </span>
@@ -59,6 +59,15 @@ const Experience = () => {
                   <li className="text-[x]16p">
                     Conducted regular reviews and provided mentorship to other developers, fostering a
                     culture of continuous learning and follow to best practices in coding standards.
+                  </li>
+                  <li>
+                    Spearheaded the integration of third-party APIs, enhancing platform functionality and improving user experience by streamlining processes such as data synchronization.
+                  </li>
+                  <li>
+                    Collaborated with stakeholders to gather requirements and translate business needs into technical solutions, resulting in a 20% improvement in project delivery efficiency.
+                  </li>
+                  <li>
+                    Implemented advanced security protocols, including data encryption and secure authentication methods, reducing vulnerability risks and ensuring compliance with industry standards.
                   </li>
                   {/* <li className="text-[x]16p">
                     Work with project team to identify strategic actions and
